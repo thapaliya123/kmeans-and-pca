@@ -168,6 +168,12 @@
     5. Construct the projection matrix W from the selected k Eigenvectors.
     6. Transform the original data set X via W to obtain the new k-dimensional feature subspace Y.
 
+- **Advantages of PCA**
+    - Reduces training time
+    - Remove correlated features (removes noise)
+    - Make EDA easy
+    - Easy to visualize data (projecting high dimensional data to 3D space)
+
 # References
 1. https://cognitiveclass.ai/
 2. https://medium.com/analytics-vidhya/dimensionality-reduction-using-principal-component-analysis-pca-41e364615766
