@@ -154,11 +154,19 @@
 </ul>
 
 <h1>Principal Component Analysis(PCA)</h1>
+
 - Principal Component Analysis is a Dimensionality Reduction technique that enables you to identify correlations and patterns in a dataset so that it can be transformed into a dataset of significantly fewer dimensions without loss of any important information.  
 
 - **Need of PCA**       
     - A dataset with more number of features takes more time for training the model and make data processing and exploratory data analysis(EDA) more complex.
-   
+
+- **Steps involved in PCA**
+    1. Standardize the data. (with mean=0 and variance=1).
+    2. Compute the covariance matrix of dimensions.
+    3. Obtain the Eigenvectors and Eigenvalues from the covariance matrix (can also be used correleation matrix or singular value decomposition).
+    4. Sort eigenvalues in descending order and choose the top k Eigenvectors that correspond to the k larges Eigenvalues (k will become the number of dimensions of the new feature subspace k<=d, d is the number of original dimension).
+    5. Construct the projection matrix W from the selected k Eigenvectors.
+    6. Transform the original data set X via W to obtain the new k-dimensional feature subspace Y.
 
 # References
 1. https://cognitiveclass.ai/
