@@ -153,6 +153,13 @@
     <li>Preprocessing steps for prediction or other tasks.</li>
 </ul>
 
+<h1>Principal Component Analysis(PCA)</h1>
+- Principal Component Analysis is a Dimensionality Reduction technique that enables you to identify correlations and patterns in a dataset so that it can be transformed into a dataset of significantly fewer dimensions without loss of any important information.  
+
+- **Need of PCA**       
+    - A dataset with more number of features takes more time for training the model and make data processing and exploratory data analysis(EDA) more complex.
+   
+
 # References
 1. https://cognitiveclass.ai/
 2. https://medium.com/analytics-vidhya/dimensionality-reduction-using-principal-component-analysis-pca-41e364615766
