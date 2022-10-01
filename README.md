@@ -174,6 +174,9 @@
     - Make EDA easy
     - Easy to visualize data (projecting high dimensional data to 3D space)
 
+- **Real-time applications**
+    - Used for dimensionaly reduction technique in the domains such as face recognition, computer vision, image compression, object detection, image classification, etc.
+
 # References
 1. https://cognitiveclass.ai/
 2. https://medium.com/analytics-vidhya/dimensionality-reduction-using-principal-component-analysis-pca-41e364615766
